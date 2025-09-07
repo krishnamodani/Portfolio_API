@@ -82,35 +82,35 @@ Frontend will now run at: http://localhost:3000
 ## API Reference
 
 Candidate profile details:
-```http
+```bash
   GET /profile
 ```
 Add a profile (auth can be added):
-```http
+```bash
   POST /profile
 ```
 Update profile:
-```http
+```bash
   PUT /profile
 ```
 List all projects:
-```http
+```bash
   GET /projects
 ```
 Filter projects by skill:
-```http
+```bash
   GET /projects?skill=python
 ```
 Get top skills:
-```http
+```bash
   GET /skills/top
 ```
 Search across profile, skills, and projects:
-```http
+```bash
   GET /search?q=AI
 ```
 Health check:
-```http
+```bash
   GET /health
 ```
 
